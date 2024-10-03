@@ -7,7 +7,7 @@ import 'kakao_map_plugin_platform_interface.dart';
 class MethodChannelKakaoMapPlugin extends KakaoMapPluginPlatform {
   /// The method channel used to interact with the native platform.
   @visibleForTesting
-  final methodChannel = const MethodChannel('kakao_map_plugin');
+  final methodChannel = const MethodChannel('kakaomap');
 
   @override
   Future<String?> getPlatformVersion() async {
