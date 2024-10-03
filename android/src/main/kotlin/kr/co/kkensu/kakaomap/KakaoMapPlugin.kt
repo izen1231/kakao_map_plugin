@@ -17,7 +17,7 @@ class KakaoMapPlugin: FlutterPlugin, MethodCallHandler {
   private lateinit var channel : MethodChannel
 
   override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "kakao_map_plugin")
+    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "kakaomap")
     channel.setMethodCallHandler(this)
   }
 

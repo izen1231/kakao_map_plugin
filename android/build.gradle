@@ -1,3 +1,5 @@
+package android
+
 group 'kr.co.kkensu.kakaomap'
 version '1.0-SNAPSHOT'
 
