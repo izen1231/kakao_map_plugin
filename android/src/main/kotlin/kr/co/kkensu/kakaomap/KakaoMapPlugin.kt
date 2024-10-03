@@ -1,4 +1,4 @@
-package kr.co.kkensu.kakao_map_plugin
+package kr.co.kkensu.kakaomap
 
 import androidx.annotation.NonNull
 
