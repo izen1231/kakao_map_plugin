@@ -1,4 +1,4 @@
-group 'kr.co.kkensu.kakao_map_plugin'
+group 'kr.co.kkensu.kakaomap'
 version '1.0-SNAPSHOT'
 
 buildscript {
